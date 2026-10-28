@@ -6,11 +6,3 @@ without installing anything.
 
 All data is simulated sample data. The site is not connected to any live system and is not an
 official product of any transport authority.
-
-## About this repository
-
-This is a generated build (Vite output), not the source. The source is maintained privately and
-this folder is replaced wholesale on each update, so there is nothing here to send a pull request
-against.
-
-Served via GitHub Pages, with a `noindex` directive so it stays out of search results.
