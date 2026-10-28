@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" dir="ltr" translate="no" class="notranslate">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./rta-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>RTA Smart Monitoring Centre</title>
+    <meta name="description" content="RTA Smart Monitoring Centre — Transport Operations Platform" />
+    <script>
+      // SMC's own FOUC guard: theme and language from cookies before React mounts.
+      ;(function () {
+        function getCookie(name) {
+          var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'))
+          return match ? decodeURIComponent(match[1]) : null
+        }
+        var theme = getCookie('smc_theme')
+        var lang = getCookie('smc_lang') || 'en'
+        // default to dark unless explicitly set to light
+        if (theme !== 'light') document.documentElement.classList.add('dark')
+        document.documentElement.lang = lang
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+      })()
+    </script>
+    <script type="module" crossorigin src="./assets/index-Ci7sJauF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CmnZu0wz.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

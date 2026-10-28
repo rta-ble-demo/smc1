@@ -1,0 +1,106 @@
+{
+ "a": {
+  "stills": {
+   "entry": {
+    "file": "case-a-entry.jpg",
+    "t": 14.16,
+    "label": "car",
+    "score": 0.995,
+    "box": [
+     0.627,
+     0.0065,
+     0.8188,
+     0.1836
+    ]
+   },
+   "violation": {
+    "file": "case-a-violation.jpg",
+    "t": 14.48,
+    "label": "truck",
+    "score": 0.953,
+    "box": [
+     0.5928,
+     0.1829,
+     0.877,
+     0.653
+    ]
+   },
+   "exit": {
+    "file": "case-a-exit.jpg",
+    "t": 14.56,
+    "label": "truck",
+    "score": 0.956,
+    "box": [
+     0.5747,
+     0.3027,
+     0.8828,
+     0.8685
+    ]
+   }
+  },
+  "plate": {
+   "file": "case-a-plate.png",
+   "nativePx": [
+    170,
+    60
+   ]
+  },
+  "clip": {
+   "file": "case-a-clip.mp4",
+   "from": 13.9,
+   "to": 15.1
+  }
+ },
+ "b": {
+  "stills": {
+   "entry": {
+    "file": "case-b-entry.jpg",
+    "t": 4.08,
+    "label": "truck",
+    "score": 0.854,
+    "box": [
+     0.5601,
+     0.0091,
+     0.7603,
+     0.2988
+    ]
+   },
+   "violation": {
+    "file": "case-b-violation.jpg",
+    "t": 4.2,
+    "label": "car",
+    "score": 0.739,
+    "box": [
+     0.5352,
+     0.1322,
+     0.7593,
+     0.4863
+    ]
+   },
+   "exit": {
+    "file": "case-b-exit.jpg",
+    "t": 4.32,
+    "label": "car",
+    "score": 0.982,
+    "box": [
+     0.4946,
+     0.2975,
+     0.7622,
+     0.7454
+    ]
+   }
+  },
+  "plate": {
+   "file": "case-b-plate.png",
+   "nativePx": [
+    135,
+    56
+   ]
+  },
+  "clip": {
+   "file": "case-b-clip.mp4",
+   "from": 3.8,
+   "to": 4.7
+  }
+ }
+}
